@@ -1,0 +1,1 @@
+docker service create --name diffweb --secret git_password --publish published=5000,target=5000 diffweb
