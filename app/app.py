@@ -33,7 +33,7 @@ app = Flask(__name__,
 # https://palletsprojects.com/p/flask/
 # https://flask.palletsprojects.com/en/1.1.x/quickstart/
 
-@app.route('/diff', methods=['GET', 'POST'])
+@app.route('/diffweb', methods=['GET', 'POST'])
 def root():
     """Diff 2 text."""
     return show_diff()
