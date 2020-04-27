@@ -3,7 +3,8 @@
 
 This project is based on https://github.com/cemerick/jsdifflib.
 
-The code is packaged into a Docker image. A few enhancements were made:
+The code is packaged into a Docker image. A few enhancements were made.
+
 * Script hosted in a flask server
 * Read source or target file from Bitbucket server using credential from docker secret
 * Added a few convenience radio buttons to reset content
